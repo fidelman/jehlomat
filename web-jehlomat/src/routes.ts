@@ -67,7 +67,7 @@ export const routes: Route[] = [
         id: Routes.USER_NEW,
         Component: PridatUzivatele,
         path: `/${USER_URL_PATH_}/novy`,
-        title: "Přidat uživatele"
+        title: 'Přidat uživatele',
     },
     {
         id: Routes.USER_VALIDATION,
