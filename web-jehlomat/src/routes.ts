@@ -64,14 +64,10 @@ export const routes: Route[] = [
         path: '/prihlaseni',
     },
     {
-        id: Routes.USER,
-        Component: SeznamUzivatelu,
-        path: `/${USER_URL_PATH_}`,
-    },
-    {
         id: Routes.USER_NEW,
         Component: PridatUzivatele,
         path: `/${USER_URL_PATH_}/novy`,
+        title: "Přidat uživatele"
     },
     {
         id: Routes.USER_VALIDATION,
@@ -87,6 +83,11 @@ export const routes: Route[] = [
         id: Routes.USER_THANK_YOU,
         Component: DekujemeUzivatel,
         path: `/${USER_URL_PATH_}/dekujeme`,
+    },
+    {
+        id: Routes.USER,
+        Component: SeznamUzivatelu,
+        path: `/${USER_URL_PATH_}`,
     },
     {
         id: Routes.ORGANIZATION,
